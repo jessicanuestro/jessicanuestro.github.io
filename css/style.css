@@ -1,0 +1,58 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Bahnschrift Condensed;
+	
+
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../love.gif);
+  	width: 100%;
+	height: 90vh;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+header{
+	height: 10vh;
+	background-color:#800000;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	
+	
+	
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.rounded img{
+	border-radius:50%;
+	
+}
+
+	
+	
